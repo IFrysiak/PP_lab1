@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+
+[assembly: InternalsVisibleTo("PP_lab1_Test")]
+[assembly: InternalsVisibleTo("PP_lab1_WinFormsApp"), InternalsVisibleTo("GUI")]
 
 namespace PP_lab1
 {
